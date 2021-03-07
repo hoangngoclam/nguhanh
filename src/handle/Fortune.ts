@@ -57,7 +57,7 @@ export default class Fortune{
         }
     }
 
-    public elementalImage(){
+    public get elementalImage(){
         switch(this.elementalNumber){
             case 1:{
             return "kim.png"
@@ -80,7 +80,7 @@ export default class Fortune{
         }
     }
 
-    public animalDesignationImage(){
+    public get animalDesignationImage(){
         switch(this.hanhChi){
             case 0:{
             return "than.png"
