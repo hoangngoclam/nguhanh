@@ -16,7 +16,7 @@ const FortunePage = () => {
   }
   return (
     <>
-        <input type="year" onChange={onInputChange}/> 
+        <input type="number" onChange={onInputChange}/> 
         <button onClick={onChangeFortuneClick}>Check</button>
         <FortuneInfo fortune={fortune}/>
     </>
