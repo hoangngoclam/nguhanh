@@ -95,7 +95,7 @@ export default class Fortune{
             return "hoi.png"
             }
             case 4:{
-            return "ty.png"
+            return "ti.png"
             }
             case 5:{
             return "suu.png"
